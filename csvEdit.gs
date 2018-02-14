@@ -5,6 +5,14 @@
  */
 
 
+function table() {
+  var table = FusionTables.Query.sql('SELECT Date, Weight FROM ' + "1EVdO0EqoyEK5S3qm1yWpWzz1-yMKoD4RUvl3-pVy")
+
+  log(table)
+  
+  
+  
+}
 
 (function() {
   //コンストラクタ
